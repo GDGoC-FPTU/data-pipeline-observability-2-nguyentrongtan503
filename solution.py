@@ -81,7 +81,7 @@ def validate(data):
             error_count += 1
             # In ra record loi de debug (optional)
 
-    print(f"Validation complete. Valid: {len(valid_records)}, Errors: {error_count}")
+    print(f"Validation complete: {len(valid_records)} records kept, {error_count} records dropped.")
     return valid_records
 
 
