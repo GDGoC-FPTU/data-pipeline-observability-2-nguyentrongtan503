@@ -46,4 +46,4 @@ python agent_simulation.py
 
 ## Ket qua
 
-(Tom tat ket qua: bao nhieu records da xu ly, bao nhieu bi loai, v.v.)
+Pipeline đã xử lý thành công 5 bản ghi từ `raw_data.json`. Kết quả thu được 3 bản ghi hợp lệ và 2 bản ghi bị loại bỏ (do giá âm hoặc thiếu category). Dữ liệu sau khi xử lý đã được chuẩn hóa, tính toán giá giảm và lưu trữ an toàn vào `processed_data.csv`.
